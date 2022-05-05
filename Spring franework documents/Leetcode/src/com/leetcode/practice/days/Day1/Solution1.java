@@ -1,5 +1,4 @@
 package com.leetcode.practice.days.Day1;
-
 import java.util.stream.IntStream;
 
 public class Solution1 {

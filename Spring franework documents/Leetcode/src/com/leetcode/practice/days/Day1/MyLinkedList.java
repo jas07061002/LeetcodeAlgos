@@ -32,12 +32,13 @@ public class MyLinkedList {
     }
 
     public void addAtHead(int val) {
-       Node newNode = new Node(val);
-       newNode.next = head.next;
-       newNode.prev = head;
-       head.next.prev = newNode;
+        Node newNode = new Node(val);
+        newNode.next = head.next;
+        newNode.prev = head;
+        head.next.prev = newNode;
 
     }
+
 
     public static void main(String[] args) {
         MyLinkedList myLinkedList = new MyLinkedList();
